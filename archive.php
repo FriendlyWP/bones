@@ -7,12 +7,12 @@
 						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
 
 							<?php if (is_category()) { ?>
-								<h1 class="archive-title h2">
+								<h1 class="page-title">
 									<span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?>
 								</h1>
 
 							<?php } elseif (is_tag()) { ?>
-								<h1 class="archive-title h2">
+								<h1 class="page-title">
 									<span><?php _e( 'Posts Tagged:', 'bonestheme' ); ?></span> <?php single_tag_title(); ?>
 								</h1>
 
@@ -20,26 +20,35 @@
 								global $post;
 								$author_id = $post->post_author;
 							?>
-								<h1 class="archive-title h2">
+								<h1 class="page-title">
 
 									<span><?php _e( 'Posts By:', 'bonestheme' ); ?></span> <?php the_author_meta('display_name', $author_id); ?>
 
 								</h1>
 							<?php } elseif (is_day()) { ?>
-								<h1 class="archive-title h2">
+								<h1 class="page-title">
 									<span><?php _e( 'Daily Archives:', 'bonestheme' ); ?></span> <?php the_time('l, F j, Y'); ?>
 								</h1>
 
 							<?php } elseif (is_month()) { ?>
-									<h1 class="archive-title h2">
+									<h1 class="page-title">
 										<span><?php _e( 'Monthly Archives:', 'bonestheme' ); ?></span> <?php the_time('F Y'); ?>
 									</h1>
 
 							<?php } elseif (is_year()) { ?>
-									<h1 class="archive-title h2">
+									<h1 class="page-title">
 										<span><?php _e( 'Yearly Archives:', 'bonestheme' ); ?></span> <?php the_time('Y'); ?>
 									</h1>
-							<?php } ?>
+							<?php } elseif ( is_tax() ) { ?>
+							    	<?php 
+							    	$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); 
+							    	$title = $term->name; ?>
+							    		<h1 class="page-title">
+							    	    		<?php echo $title; ?>
+							        	</h1>
+							    <?php } elseif ( is_post_type_archive() ) { ?>
+							    	<h1 class="page-title"><?php post_type_archive_title(); ?></h1>
+							    <?php } ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
