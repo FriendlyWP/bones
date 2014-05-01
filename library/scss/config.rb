@@ -15,7 +15,7 @@ images_dir = "../images"
 javascripts_dir = "../js"
 environment = :development
 relative_assets = true
-
+sass_options = {:debug_info => true}
 
 # 3. You can select your preferred output style here (can be overridden via the command line):
 output_style = :expanded
