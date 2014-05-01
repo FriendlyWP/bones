@@ -357,14 +357,16 @@ POSTS & CONTENT STYLES
 	}
 
 	/*
-	image alignment on a screen this size may be
-	a bit difficult. It's set to start aligning
-	and floating images at the next breakpoint,
-	but it's up to you. Feel free to change it up.
+	Align all images center for smallest screens
 	*/
-	.alignleft, img.alignleft {}
-	.alignright, img.alignright {}
-	.aligncenter, img.aligncenter {}
+	.alignleft, img.alignleft, 
+	.alignright, img.alignright,
+	.aligncenter, img.aligncenter { 
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
+	}
 
 	.size-auto,
 	.size-full,
