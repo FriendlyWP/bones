@@ -203,6 +203,14 @@ function custom_mime_types( $post_mime_types ) {
         return $post_mime_types;
 }
 
+/************ RESPONSIVE VIDEO ******************/
+// remove dimensions from oEmbed videos
+add_filter( 'embed_oembed_html', 'tdd_oembed_filter', 10, 4 ) ; 
+function tdd_oembed_filter($html, $url, $attr, $post_ID) {
+    $return = '<figure class="video-container">'.$html.'</figure>';
+    return $return;
+}
+
 /**************** SHORTCODES ***************/
 
 // ENABLE SHORTCODES IN ALL TEXT WIDGETS

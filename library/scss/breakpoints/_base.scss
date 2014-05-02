@@ -356,17 +356,7 @@ POSTS & CONTENT STYLES
 		height: auto;
 	}
 
-	/*
-	Align all images center for smallest screens
-	*/
-	.alignleft, img.alignleft, 
-	.alignright, img.alignright,
-	.aligncenter, img.aligncenter { 
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
-		clear: both;
-	}
+
 
 	.size-auto,
 	.size-full,
@@ -387,6 +377,36 @@ POSTS & CONTENT STYLES
 	}
 
 } /* end .entry-content */
+
+/*
+Align all images center for smallest screens
+*/
+.alignleft, img.alignleft, 
+.alignright, img.alignright,
+.aligncenter, img.aligncenter { 
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	width:100%;
+	overflow: hidden;
+	margin-bottom:1.677em;
+
+	iframe, object, embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
 
 .wp-caption {
 	max-width: 100%;
