@@ -67,13 +67,19 @@ NAVIGATION STYLES
 
 		ul.sub-menu,
 		ul.children {
-			margin-top: 0;
-			border: 1px solid #ccc;
+			background-color: $link-color;
+			height:0;
+			opacity: 0;
+			overflow: hidden;
+			padding:0;
+			margin:0;
+			width:auto;
+			min-width: 200px;
 			border-top: 0;
 			position: absolute;
-			overflow: hidden;
-			visibility: hidden;
 			z-index: 8999;
+			text-align:left;
+			box-shadow: (5px 5px 8px black(.22));
 
 			li {
 
@@ -111,9 +117,14 @@ NAVIGATION STYLES
 
 		/* showing sub-menus */
 		&:hover ul {
-			top: auto;
-			overflow: visible;
-			visibility:visible;
+			top:98%;
+			height: auto;
+			opacity:1;
+			@include transition(all .5s ease);
+		}
+
+		&:last-of-type:hover ul {
+			right:0;
 		}
 
 	} /* end .menu ul li */
@@ -176,3 +187,31 @@ FOOTER STYLES
 		}
 	}
 } /* end .footer-links */
+
+/*********************
+GRAVITY FORMS
+**********************/
+
+.ginput_container {
+	margin-bottom:.5em;
+	zoom: 1;
+    &:before, &:after { content: ""; display: table; }
+    &:after { clear: both; }
+
+    & > span {
+    	float:left;
+    	margin-right:.9em;
+
+    	&:last-of-type {
+    		margin-right: 0;
+    	}
+
+    	input {
+    		margin-bottom: .2em;
+    	}
+
+    	label {
+    		font-size: .8em;
+    	}
+    }
+}

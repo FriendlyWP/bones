@@ -83,3 +83,34 @@ p {
           font-feature-settings: "liga", "dlig";
 }
 
+/*********************
+BUTTONS
+*********************/
+
+.button, .button:visited {
+  font-family: $sans-serif;
+  border: 1px solid darken($link-color, 13%);
+  border-top-color: darken($link-color, 7%);
+  border-left-color: darken($link-color, 7%);
+  padding: .2em .5em;
+  color: $white;
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 0 1px black(.75);
+  cursor: pointer;
+  margin-bottom: 1.5em;
+  line-height: 1.3em;
+  border-radius:.3em;
+  background: darken($link-color, 10%);
+
+  &:hover, &:focus {
+    color: $white;
+    border: 1px solid darken($link-color, 13%);
+    background: darken($link-color, 20%);
+  }
+
+  &:active {
+    background: darken($link-color, 10%);    
+  }
+
+}

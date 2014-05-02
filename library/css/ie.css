@@ -213,16 +213,22 @@ NAVIGATION STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000369}}
 .nav li ul.sub-menu,
 .nav li ul.children {
-  margin-top: 0;
-  border: 1px solid #ccc;
+  background-color: #f01d4f;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  min-width: 200px;
   border-top: 0;
   position: absolute;
-  overflow: hidden;
-  visibility: hidden;
   z-index: 8999;
+  text-align: left;
+  box-shadow: 5px 5px 8px black(0.22);
   /* highlight sub-menu current page */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000386}}
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -231,44 +237,50 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003103}}
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003119}}
 .nav li:hover ul {
-  top: auto;
-  overflow: visible;
-  visibility: visible;
+  top: 98%;
+  height: auto;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003126}}
+.nav li:last-of-type:hover ul {
+  right: 0;
 }
 
 /* end .nav */
 /*********************
 SIDEBARS & ASIDES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003145}}
 .sidebar {
   margin-top: 2.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003149}}
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003154}}
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003159}}
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003167}}
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -278,6 +290,41 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 /* end .footer-links */
+/*********************
+GRAVITY FORMS
+**********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003195}}
+.ginput_container {
+  margin-bottom: .5em;
+  zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003198}}
+.ginput_container:before, .ginput_container:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003199}}
+.ginput_container:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003201}}
+.ginput_container > span {
+  float: left;
+  margin-right: .9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003205}}
+.ginput_container > span:last-of-type {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003209}}
+.ginput_container > span input {
+  margin-bottom: .2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003213}}
+.ginput_container > span label {
+  font-size: .8em;
+}
+
 /******************************************************************
 Site Name:
 Author:
