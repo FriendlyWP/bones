@@ -118,55 +118,26 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 /*********************
-NAVIGATION STYLES
-*********************/
-/* .menu is clearfixed inside mixins.scss */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000333}}
-.menu {
-  /* end .menu ul */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000334}}
-.menu ul {
-  /* end .menu ul li */
-  /* highlight current page */
-  /* end current highlighters */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000335}}
-.menu ul li {
-  /*
-  plan your menus and drop-downs wisely.
-  */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000336}}
-.menu ul li a {
-  /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
-}
-
-/* end .menu */
-/*********************
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000331}}
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000335}}
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000340}}
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_481up\.scss}line{font-family:\0000345}}
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -178,10 +149,6 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/*
-check your menus here. do they look good?
-do they need tweaking?
-*/
 /* end .footer-links */
 /******************************************************************
 Site Name:
@@ -202,7 +169,7 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000325}}
 .wrap {
   width: 760px;
 }
@@ -213,7 +180,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000341}}
 .nav {
   border: 0;
   /* end .menu ul li */
@@ -224,16 +191,13 @@ NAVIGATION STYLES
 .nav ul {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000348}}
 .nav li {
   float: left;
   position: relative;
-  /*
-  plan your menus and drop-downs wisely.
-  */
   /* showing sub-menus */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000352}}
 .nav li a {
   border-bottom: 0;
   /*
@@ -241,12 +205,12 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000359}}
 .nav li a:hover, .nav li a:focus {
   color: white;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000369}}
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -259,15 +223,6 @@ NAVIGATION STYLES
   /* highlight sub-menu current page */
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000380}}
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000382}}
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -276,12 +231,12 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\0000397}}
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003113}}
 .nav li:hover ul {
   top: auto;
   overflow: visible;
@@ -292,61 +247,36 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003134}}
 .sidebar {
   margin-top: 2.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003138}}
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003143}}
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003148}}
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003156}}
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
 }
 
-/* links widget */
-/* meta widget */
-/* pages widget */
-/* recent-posts widget */
-/* archives widget */
-/* tag-cloud widget */
-/* calendar widget */
-/* category widget */
-/* recent-comments widget */
-/* search widget */
-/* text widget */
 /*********************
 FOOTER STYLES
 *********************/
-/*
-you'll probably need to do quite a bit
-of overriding here if you styled them for
-mobile. Make sure to double check these!
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/master\/wp\/wp-content\/themes\/bones\/library\/scss\/breakpoints\/_768up\.scss}line{font-family:\00003272}}
-.footer-links ul li {
-  /*
-  be careful with the depth of your menus.
-  it's very rare to have multi-depth menus in
-  the footer.
-  */
-}
-
 /* end .footer-links */
 /******************************************************************
 Site Name:
