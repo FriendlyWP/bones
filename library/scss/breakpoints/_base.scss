@@ -287,14 +287,6 @@ POSTS & CONTENT STYLES
 		margin-bottom: 1.5em;
 	}
 
-	img {
-		margin: 0 0 1.5em 0;
-		max-width: 100%;
-		height: auto;
-	}
-
-
-
 	.size-auto,
 	.size-full,
 	.size-large,
@@ -314,6 +306,12 @@ POSTS & CONTENT STYLES
 	}
 
 } /* end .entry-content */
+
+img {
+	margin: 0 0 1.5em 0;
+	max-width: 100%;
+	height: auto;
+}
 
 /*
 Align all images center for smallest screens
@@ -357,30 +355,32 @@ Align all images center for smallest screens
 		width: 100%;
 	}
 
-	p.wp-caption-text {
-		font-size: 0.85em;
-		margin: 4px 0 7px;
-		text-align: center;
-	}
-
 } /* end .wp-caption */
+
+.wp-caption-text {
+	font-size: 0.85em;
+	margin: .2em 0 .3em;
+	text-align: center;
+	font-style:italic;
+}
 
 /* image gallery styles */
 .gallery {
 
-	dl {
+} 
 
-		a {}
+.gallery-item {
+	display:inline-block;
+	margin:0 2% 1em 0;
+	width:100%;
+	vertical-align:top;
+	text-align:center;
 
-		img {}
-
+	img {
+		margin-bottom: 0;
 	}
 
-	dt {}
-
-	dd {}
-
-} /* end .gallery */
+}
 
 /* gallery caption styles */
 .gallery-caption {}

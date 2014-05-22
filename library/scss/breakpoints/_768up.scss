@@ -139,6 +139,90 @@ NAVIGATION STYLES
 } /* end .nav */
 
 /*********************
+PAGE STYLES
+*********************/
+.gallery-item {
+	width:49%;
+
+	&:nth-child(2n+2) {
+		margin-right:2%;
+	}
+	
+	&:last-of-type {
+		margin-right: 0;
+	}
+
+	.gallery-columns-1 & {
+		width:100%;
+		margin-right: 0;
+	}
+
+	.gallery-columns-2 & {
+		width:49%;
+
+		&:nth-child(2n+2) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-3 & {
+		width:32%;
+
+		&:nth-child(3n+3) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-4 & {
+		width:23.5%;
+
+		&:nth-child(4n+4) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-5 & {
+		width:18.4%;
+
+		&:nth-child(5n+5) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-6 & {
+		width:15%;
+
+		&:nth-child(6n+6) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-7 & {
+		width:12.57142857%;
+
+		&:nth-child(7n+7) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-8 & {
+		width:10.75%;
+
+		&:nth-child(8n+8) {
+			margin-right: 0;
+		}
+	}
+
+	.gallery-columns-9 & {
+		width:9.33333333%;
+
+		&:nth-child(9n+9) {
+			margin-right: 0;
+		}
+	}
+}
+
+/*********************
 SIDEBARS & ASIDES
 *********************/
 

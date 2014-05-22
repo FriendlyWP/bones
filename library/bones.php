@@ -80,12 +80,6 @@ function bones_remove_recent_comments_style() {
 	}
 }
 
-// remove injected CSS from gallery
-function bones_gallery_style($css) {
-	return preg_replace( "!<style type='text/css'>(.*?)</style>!s", '', $css );
-}
-
-
 /*********************
 SCRIPTS & ENQUEUEING
 *********************/
@@ -175,6 +169,10 @@ function bones_theme_support() {
 			'chat'               // chat transcript
 		)
 	);
+
+	// Use HTML5 Galleries, which don't include style tags
+	// see http://make.wordpress.org/core/2014/04/15/html5-galleries-captions-in-wordpress-3-9/
+	add_theme_support( 'html5', array( 'gallery', 'caption' ) );
 
 	// wp menus
 	add_theme_support( 'menus' );

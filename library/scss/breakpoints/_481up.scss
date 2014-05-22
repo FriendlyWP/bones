@@ -51,6 +51,14 @@ POSTS & CONTENT STYLES
 
 } /* end .entry-content */
 
+.gallery-item {
+	width:49%;
+
+	&:nth-child(2n+2) {
+		margin-right: 0;
+	}
+}
+
 /*********************
 FOOTER STYLES
 *********************/
