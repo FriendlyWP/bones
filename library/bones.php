@@ -162,7 +162,7 @@ function bones_theme_support() {
 	// to add header image support go here: http://themble.com/support/adding-header-background-image-support/
 
 	// adding post format support
-	add_theme_support( 'post-formats',
+	/* add_theme_support( 'post-formats',
 		array(
 			'aside',             // title less blurb
 			'gallery',           // gallery of images
@@ -174,7 +174,7 @@ function bones_theme_support() {
 			'audio',             // audio
 			'chat'               // chat transcript
 		)
-	);
+	); */
 
 	// Use HTML5 Galleries, which don't include style tags
 	// see http://make.wordpress.org/core/2014/04/15/html5-galleries-captions-in-wordpress-3-9/

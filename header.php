@@ -44,7 +44,7 @@
 
 				<div id="inner-header" class="wrap cf">
 
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-arrangement-danger.png" alt="<?php bloginfo('name'); ?>" /></a>
+					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow" title="<?php bloginfo('name'); ?>"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo-friendly-300w-white.png" alt="<?php bloginfo('name'); ?>" /></a>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

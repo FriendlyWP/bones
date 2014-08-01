@@ -4,7 +4,11 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
+						<div id="main" class="main-content cf" role="main">
+
+							<?php if ( function_exists('yoast_breadcrumb') ) {
+								yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+							} ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -21,11 +25,6 @@
 										// the content (pretty self explanatory huh)
 										the_content();
 
-										/*
-										 * Link Pages is used in case you have posts that are set to break into
-										 * multiple pages. You can remove this if you don't plan on doing that.
-										 *
-										*/
 										wp_link_pages( array(
 											'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bonestheme' ) . '</span>',
 											'after'       => '</div>',
