@@ -469,4 +469,42 @@ FOOTER STYLES
 	p {
 		margin-bottom: .677em;
 	}
+
+	a, a:visited {
+		color:$gray;
+		border-color: $gray;
+	}
+}
+
+.organization-address, .copyright {
+	text-align: center;
+	margin:0 auto .5em;
+	
+	@include breakpoint(laptop) {
+		margin:0 0 .5em;
+		text-align: left;
+		display:inline-block;
+
+		& > div {
+			display:inline-block;
+		}
+	}
+}
+
+.contact {
+	margin-top:.5em;
+
+	.item {
+		display: inline-block;
+		margin-right: 1em;
+		padding-right: 1em;
+		border-right: 1px solid $gray;
+		line-height: 1em;
+
+		&:last-of-type {
+			border-right:none;
+			margin-right:0;
+			padding-right:0;
+		}
+	}
 }

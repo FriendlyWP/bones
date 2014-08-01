@@ -1731,6 +1731,48 @@ FOOTER STYLES
 .footer p {
   margin-bottom: .677em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003473}}
+.footer a, .footer a:visited {
+  color: #aaaaaa;
+  border-color: #aaaaaa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003479}}
+.organization-address, .copyright {
+  text-align: center;
+  margin: 0 auto .5em;
+}
+@media (min-width: 64em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003479}}
+  .organization-address, .copyright {
+    margin: 0 0 .5em;
+    text-align: left;
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003488}}
+  .organization-address > div, .copyright > div {
+    display: inline-block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003494}}
+.contact {
+  margin-top: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003497}}
+.contact .item {
+  display: inline-block;
+  margin-right: 1em;
+  padding-right: 1em;
+  border-right: 1px solid #aaaaaa;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003504}}
+.contact .item:last-of-type {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_editor_styles\.scss}line{font-family:\000031}}
 body {
