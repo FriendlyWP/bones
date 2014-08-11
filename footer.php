@@ -26,7 +26,7 @@
 					<?php } ?>
 
 					<?php if (function_exists('get_field') && get_field('street_address', 'option')) {
-						$email = get_field('contact_email', 'option');
+						
 						?>
 						<div itemscope itemtype="http://schema.org/Organization" class="organization-address">
 							<span itemprop="name" class="hide"><?php the_field('copyrighted', 'option' ); ?></span>
@@ -37,9 +37,17 @@
 						      <span itemprop="postal-code"><?php the_field('zip', 'option'); ?></span>
 						   </div>
 						   <div class="contact">
-							   <span class="item">Phone: <span itemprop="telephone"><?php the_field('phone', 'option'); ?></span></span>
-							   <span class="item"><a href="mailto:<?php echo antispambot($email); ?>" target="_blank" itemprop="email">Email Us</a></span>
-							   <span class="item"><a href="<?php the_field('contact_page_link', 'option'); ?>">Contact Us</a></span>
+						   		<?php if (get_field('phone', 'option')) { ?>
+						   			<span class="item">Phone: <span itemprop="telephone"><?php the_field('phone', 'option'); ?></span></span>
+						   		<?php } ?>
+							   <?php if (get_field('contact_email', 'option')) { 
+							   	$email = get_field('contact_email', 'option'); ?>
+							   		<span class="item"><a href="mailto:<?php echo antispambot($email); ?>" target="_blank" itemprop="email">Email Us</a></span>
+							   <?php } ?>
+							   <?php if (get_field('contact_page_link', 'option')) { ?>
+							   		<span class="item"><a href="<?php the_field('contact_page_link', 'option'); ?>">Contact Us</a></span>
+							   <?php } ?>
+							</div>
 						</div>
 						<?php
 					} else { ?> 
