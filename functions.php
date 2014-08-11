@@ -175,3 +175,6 @@ if( function_exists('acf_add_options_sub_page') )
         'capability' => 'manage_options'
     ));
 }
+
+/**** MENU SOCIAL ICONS ****/
+add_filter( 'storm_social_icons_use_latest', '__return_true' );

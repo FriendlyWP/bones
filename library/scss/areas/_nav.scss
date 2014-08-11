@@ -1,10 +1,90 @@
 /*********************
 NAVIGATION STYLES
 *********************/
+#searchform-head {
+	margin-top:.5em;
+	color:$gray;
+}
+#menu-social-menu {
+		margin-top:0em;
+	}
 
+#my-content #my-menu {
+  /* display: none; */
+}
+
+#my-menu:not( .mm-menu ) {
+ /* display: none; */
+}
+.topbar {
+	background-color:$red;
+	padding:.25em 1em;
+	margin-bottom:1em;
+
+	@include breakpoint(laptop) {
+		padding:0;
+		background-color:transparent;
+		position:absolute;
+		top:.25em;
+		right:0;
+		font-size:.8em;	
+	}
+	
+}
+.menu-toggler {
+	border: none;
+	font-size:2em;
+	color:$white;
+
+	@include breakpoint(laptop) {
+		display:none;
+	}
+}
+
+#menu-social-menu {
+	display:none;
+}
+
+.topmenu {
+	background-color:$blue;
+	margin:1em 0 0 ;
+}
+
+.menu-item-has-children {
+	& > a:after {
+		padding-left:.5em;
+		content:"\f101";
+		font-family: FontAwesome;
+	}
+
+	.top-nav > &:hover {
+		> a:after {
+			content:"\f103";
+		}
+	}
+}
 .nav {
 	border-bottom: 0;
 	margin: 0;
+	font-family:$title-family;
+
+	&.top-nav {
+		width:100%;
+		padding:0;
+		display: block;
+		line-height: .5em;
+		margin-left:-.75em;
+	}
+
+	/* equally spaces out list items in main menu, see http://css-tricks.com/equidistant-objects-with-css/ */
+	/* &.top-nav:after {
+		content:'';
+		width:100%;
+		display: inline-block;
+		height:0;
+		line-height: 0;
+		font-size:0;
+	} */
 
 	li {
 
@@ -19,6 +99,13 @@ NAVIGATION STYLES
 			}
 		}
 
+		&.current-menu-ancestor, &.current-menu-item {
+			> a {
+				font-weight: 700;	
+			}
+			
+		}
+
 		@include breakpoint(laptop) {
 			float: left;
 			position: relative;
@@ -26,27 +113,24 @@ NAVIGATION STYLES
 			ul.sub-menu,
 			ul.children {
 				background-color: $link-color;
-				height:0;
-				opacity: 0;
-				overflow: hidden;
+				display: none;
 				padding:0;
 				margin:0;
 				width:auto;
-				min-width: 200px;
 				border-top: 0;
 				position: absolute;
 				z-index: 8999;
 				text-align:left;
-				box-shadow: (5px 5px 8px black(.22));
+				box-shadow: .2em .2em .2em rgba(102, 102, 102, .3);
 
 				li {
 
 					a {
-						padding-left: 10px;
+						padding-left: 1em;
 						border-right: 0;
 						display: block;
 						width: 180px;
-						border-bottom: 1px solid #ccc;
+						border-bottom: 1px dotted $white;
 
 						&:hover,
 						&:focus {}
@@ -62,27 +146,44 @@ NAVIGATION STYLES
 							border-bottom: 0;
 						}
 					}
-					ul {}
+					ul, ul ul {
+						top:0;
+						left:100%;
+
+						li:last-child {
+							a {
+								margin-bottom:0;
+								border-color: transparent;	
+							}
+							
+						}
+						
+					}
 				}
 
 				/* highlight sub-menu current page */
 				li.current-menu-item,
 				li.current_page_item,
 				li.current-page-ancestor {
-					a {}
+					& > a {
+						border: none;
+					}
 				}
 			}
 
-			/* showing sub-menus */
-			&:hover ul {
+			&:hover > ul {
+				display: block;
+				visibility: visible;
 				top:98%;
-				height: auto;
-				opacity:1;
+				left:0;
 				@include transition(all .5s ease);
 			}
 
-			&:last-of-type:hover ul {
+			&:last-of-type:hover > ul {
+				display: block;
+				visibility: visible;
 				right:0;
+				left:auto;
 			}
 		}
 	} /* end .menu li */

@@ -121,11 +121,12 @@ function bones_scripts_and_styles() {
 
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
-		/*
-		I recommend using a plugin to call jQuery
-		using the google cdn. That way it stays cached
-		and your site will load faster.
-		*/
+		wp_register_style( 'mmenu-stylesheet', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/css/jquery.mmenu.all.css', array(), '', 'all' );
+		wp_register_script( 'mmenu-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/js/jquery.mmenu.min.all.js', array( 'jquery' ), '', false );
+
+		wp_enqueue_script( 'mmenu-js' );
+		wp_enqueue_style( 'mmenu-stylesheet' );
+		
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'bones-js' );
 

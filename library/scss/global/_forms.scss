@@ -35,6 +35,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+input[type="file"],
 select,
 textarea,
 .field {
@@ -46,7 +47,7 @@ textarea,
   font-size: 1em;
   color: $text-color;
   border-radius: 3px;
-  border:1px solid $gray;
+  border:1px solid $light-gray;
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
@@ -57,7 +58,7 @@ textarea,
   // a focused input (or hovered on)
   &:focus,
   &:active {
-    background-color: lighten($gray, 4%);
+    background-color: lighten($light-gray, 14%);
   } // end hover or focus
 
   // error notification
@@ -107,12 +108,53 @@ textarea {
   line-height: 1.5em;
 }
 
-select {
+.gform_wrapper select {
   padding:0;
   vertical-align: middle;
+  height:auto;
+  font-size: inherit;
+
+  option {
+
+  }
 }
 
 
 input[type="checkbox"], input[type="radio"] {
   margin-right: .5em;
+}
+
+input[type="file"] {
+  border: none;
+  padding-left:0;
+}
+
+.gfield_time_hour.gfield_time_hour {
+  line-height: 1em;
+  
+  & > label {
+    float:left;
+    width:60%;
+    margin-top: 0px;
+  }
+
+}
+
+.gfield_list_icons {
+   img {
+    float:left;
+   }
+   
+}
+
+.gfield_list_cell  {
+  input {
+    max-width: inherit !important;
+   }
+}
+
+.entry-content .gfield_list {
+  tr:nth-child(2n) {
+    background-color: transparent;
+  }
 }
