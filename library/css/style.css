@@ -1348,6 +1348,63 @@ input[type="file"] {
   background-color: transparent;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\000033}}
+#tinymce .one-half,
+#tinymce .one-third,
+#tinymce .two-third {
+  border: 1px dashed #aaaaaa;
+  padding: 1%;
+}
+
+/* Structures */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\000039}}
+.all-columns {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000316}}
+  .one-half,
+  .one-third,
+  .two-third {
+    float: left;
+    margin: 0 2% 1em 0;
+  }
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000322}}
+  .one-half {
+    width: 48%;
+  }
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000327}}
+  .one-third {
+    width: 31%;
+  }
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000332}}
+  .two-third {
+    width: 64%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000338}}
+.first {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000342}}
+.last {
+  margin-right: 0;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\000031}}
 body {
   height: 100%;
