@@ -37,6 +37,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		<a class="skip" href="#content">Skip Navigation</a>
 
 		<div id="container">
 

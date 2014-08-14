@@ -1,8 +1,8 @@
 			<footer class="footer" role="contentinfo">
 
 				<div id="inner-footer" class="wrap cf">
-
-					<nav role="navigation">
+					<?php if ( has_nav_menu( 'footer-nav' ) ) { ?>
+					<nav role="navigation">	
 						<?php wp_nav_menu(array(
     					'container' => '',                              // remove nav container
     					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
@@ -17,6 +17,7 @@
     					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
 						)); ?>
 					</nav>
+					<?php } ?>
 					<?php if (function_exists('get_field') && get_field('copyrighted', 'option')) {
 						?>
 						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <span><?php the_field('copyrighted', 'option' ); ?></span></p>
