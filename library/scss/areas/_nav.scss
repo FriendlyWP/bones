@@ -1,6 +1,7 @@
 /*********************
 NAVIGATION STYLES
 *********************/
+
 #searchform-head {
 	margin-top:.5em;
 	color:$gray;
@@ -50,19 +51,25 @@ NAVIGATION STYLES
 	margin:1em 0 0 ;
 }
 
-.menu-item-has-children {
-	& > a:after {
-		padding-left:.5em;
-		content:"\f101";
-		font-family: FontAwesome;
+.top-nav {
+	.menu-item-has-children {
+		& > a:after {
+			padding-left:.5em;
+			content:"\f101";
+			font-family: FontAwesome;
+		}
 	}
 
-	.top-nav > &:hover {
-		> a:after {
-			content:"\f103";
+	& > .menu-item-has-children {
+		&:hover {
+			> a:after {
+				content:"\f103";
+			}
 		}
 	}
 }
+
+
 .nav {
 	border-bottom: 0;
 	margin: 0;

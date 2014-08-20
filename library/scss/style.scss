@@ -11,11 +11,14 @@
 @import "global/forms";
 @import "global/alerts";
 @import "global/buttons";
-@import "global/forms";
 @import "global/columns";
 
 @import "areas/general";
 @import "areas/nav";
+@import "areas/mobile_nav";
 @import "areas/events";
-
 /* @import "areas/comments"; */
+
+/* include effects and main mobile menu styles; for other options see http://mmenu.frebsite.nl/ */
+@import "../js/libs/jquery-mmenu-master/src/scss/extensions/jquery.mmenu.effects";
+@import "../js/libs/jquery-mmenu-master/src/scss/jquery.mmenu";
