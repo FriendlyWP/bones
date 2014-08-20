@@ -107,26 +107,6 @@ a:hover {
     outline: 0;
 }
 
-/**
- * Accessibility link
-  */
-a.skip
-{ 
-    display: inline-block;
-position:absolute; 
-left:-10000px; 
-top:auto; 
-width:1px; 
-height:1px; 
-overflow:hidden;
-} 
- 
-a.skip:focus 
-{ 
-position:static; 
-width:auto; 
-height:auto; 
-} 
 
 /* ==========================================================================
    Typography
@@ -260,7 +240,7 @@ dl,
 menu,
 ol,
 ul {
-    margin: 1em 0;
+    margin: 0 0 1em 0;
 }
 
 dd {
@@ -285,6 +265,7 @@ nav ul,
 nav ol {
     list-style: none;
     list-style-image: none;
+    margin:0;
 }
 
 /* ==========================================================================
@@ -504,3 +485,26 @@ span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
 }
+
+/*
+Accessibility styles 
+*/
+
+a.skip, .screen-reader-text { 
+  display: inline-block;
+  position:absolute; 
+  left:-10000px; 
+  top:auto; 
+  width:1px; 
+  height:1px; 
+  overflow:hidden;
+} 
+ 
+a.skip:focus { 
+  position:static; 
+  width:auto; 
+  height:auto; 
+  background-color:$white;
+  color:$link-color;
+  padding:1em;
+} 

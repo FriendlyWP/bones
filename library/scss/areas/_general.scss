@@ -153,6 +153,14 @@ p {
 	margin: 0 0 1.677em;
 }
 
+.searchform {
+	label {
+
+	}
+	input {
+		display: inline-block;
+	}
+}
 
 /*********************
 POSTS & CONTENT STYLES
@@ -517,3 +525,4 @@ FOOTER STYLES
 		}
 	}
 }
+

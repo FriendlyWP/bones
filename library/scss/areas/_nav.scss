@@ -2,13 +2,9 @@
 NAVIGATION STYLES
 *********************/
 
-#searchform-head {
-	margin-top:.5em;
-	color:$gray;
-}
 #menu-social-menu {
-		margin-top:0em;
-	}
+	margin-top:0em;
+}
 
 #my-content #my-menu {
   /* display: none; */
@@ -21,14 +17,38 @@ NAVIGATION STYLES
 	background-color:$red;
 	padding:.25em 1em;
 	margin-bottom:1em;
+	text-align:center;
 
 	@include breakpoint(laptop) {
 		padding:0;
-		background-color:transparent;
-		position:absolute;
+		background-color:$gray;
+		text-align: right;
+		/* position:absolute;
 		top:.25em;
-		right:0;
+		right:0; */
 		font-size:.8em;	
+	}
+
+	.login.button, .searchform {
+		display: inline-block;
+	}
+
+	.searchform {
+		width: 30%;
+
+		input {
+			width: 83%;
+			height: auto;
+			line-height: 1.5em;
+			margin:0;
+		}
+
+		button {
+			width: 15%;
+			line-height: 1.5em;
+			border:1px solid $light-gray;
+			vertical-align: middle;
+		}
 	}
 	
 }
@@ -44,6 +64,9 @@ NAVIGATION STYLES
 
 #menu-social-menu {
 	display:none;
+	@include breakpoint(laptop) {
+		display:inline-block;
+	}
 }
 
 .topmenu {
@@ -78,9 +101,13 @@ NAVIGATION STYLES
 	&.top-nav {
 		width:100%;
 		padding:0;
-		display: block;
+		display: none;
 		line-height: .5em;
 		margin-left:-.75em;
+
+		@include breakpoint(laptop) {
+			display:block;
+		}
 	}
 
 	/* equally spaces out list items in main menu, see http://css-tricks.com/equidistant-objects-with-css/ */

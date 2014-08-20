@@ -51,7 +51,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<a class="skip" href="#content">Skip Navigation</a>
+		<a class="skip" href="#content">Skip to Content</a>
 
 		<div id="container">
 
@@ -82,7 +82,7 @@
 
 							<a class="button login"><span>Member </span>Login</a>
 						
-							<form role="search" class="search" method="get" id="searchform-head" action="<?php echo home_url( '/' ); ?>">
+							<form role="search" class="searchform" method="get" id="searchform-head" action="<?php echo home_url( '/' ); ?>">
 							    <div class="head-search">
 							    	<label class="screen-reader-text" for="s">Search this site</label>
 							        <input type="text" value="" placeholder="Search" name="s" id="s" />
