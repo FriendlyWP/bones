@@ -80,7 +80,7 @@
 						<div class="wrap">
 							<a href="#my-menu" class="menu-toggler"><i class="fa fa-bars"></i></a>
 
-							<a class="button login"><span>Member </span>Login</a>
+							<a class="login"><span>Member </span>Login</a>
 						
 							<form role="search" class="searchform" method="get" id="searchform-head" action="<?php echo home_url( '/' ); ?>">
 							    <div class="head-search">
@@ -93,9 +93,9 @@
 							<?php if ( has_nav_menu( 'social-nav' ) ) { ?>
 									<?php wp_nav_menu(array(
 			    					'container' => false,                           // remove nav container
-			    					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+			    					'container_class' => 'menu',                 // class of container (should you choose to use it)
 			    					'menu' => __( 'The Social Menu', 'bonestheme' ),  // nav name
-			    					'menu_class' => 'nav social-nav cf',               // adding custom nav class
+			    					'menu_class' => 'nav social-nav',               // adding custom nav class
 			    					'theme_location' => 'social-nav',                 // where it's located in the theme
 			    					'before' => '',                                 // before the menu
 				        			'after' => '',                                  // after the menu

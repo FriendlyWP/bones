@@ -17,40 +17,73 @@ NAVIGATION STYLES
 	background-color:$red;
 	padding:.25em 1em;
 	margin-bottom:1em;
-	text-align:center;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+
 
 	@include breakpoint(laptop) {
-		padding:0;
+		padding: 5px 0 4px;
 		background-color:$gray;
 		text-align: right;
 		/* position:absolute;
 		top:.25em;
 		right:0; */
 		font-size:.8em;	
+		line-height: 1em;
 	}
 
-	.login.button, .searchform {
+	.login, input, .social-nav > li > a {
 		display: inline-block;
+		height:40px;
+		line-height: 40px;
+		vertical-align: top;
+	}
+
+	.social-nav li a {
+		padding: 0 .75em;
+		vertical-align: middle;
+
+		i {
+			display: inline-block;
+			line-height: 40px;
+		}
+
+	}
+
+	.login {
+		border:none;
+		background-color:$link-color;
+		color:$white;
+		font-size:1.1em;
+		padding-left:.5em;
+		padding-right: .5em;
 	}
 
 	.searchform {
 		width: 30%;
+		position:relative;
+		display: inline-block;
+
+		input, button {
+			margin:0;
+			float:left;
+		}
 
 		input {
-			width: 83%;
-			height: auto;
-			line-height: 1.5em;
-			margin:0;
+			width: 82%;
+			margin-right:2%;
 		}
 
 		button {
-			width: 15%;
-			line-height: 1.5em;
-			border:1px solid $light-gray;
-			vertical-align: middle;
+			position: relative;
+			background-color:transparent;
+			border: none;
+			font-size: 26px;
+			line-height: 40px;
 		}
 	}
-	
+
 }
 .menu-toggler {
 	border: none;

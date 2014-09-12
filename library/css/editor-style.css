@@ -1108,7 +1108,7 @@ body {
 .header {
   background-color: black;
   color: white;
-  padding: 1em 0 0;
+  padding: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000348}}
