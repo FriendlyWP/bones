@@ -12,10 +12,10 @@ sidebars, comments, ect.
 require_once( 'library/bones.php' );
 
 // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-require_once( 'library/custom-post-type.php' );
+//require_once( 'library/custom-post-type.php' );
 
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-// require_once( 'library/admin.php' );
+require_once( 'library/admin.php' );
 
 /*********************
 LAUNCH BONES
@@ -54,13 +54,6 @@ function bones_ahoy() {
 
 // let's get this party started
 add_action( 'after_setup_theme', 'bones_ahoy' );
-
-
-/************* OEMBED SIZE OPTIONS *************/
-
-if ( ! isset( $content_width ) ) {
-	$content_width = 640;
-}
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
