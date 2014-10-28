@@ -106,10 +106,10 @@ function bones_scripts_and_styles() {
 		// ie-only style sheet
 		wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
-    // comment reply script for threaded comments
-    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
-		  wp_enqueue_script( 'comment-reply' );
-    }
+	    // comment reply script for threaded comments
+	    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+			  wp_enqueue_script( 'comment-reply' );
+	    }
 
 		//adding scripts file in the footer
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
@@ -119,6 +119,10 @@ function bones_scripts_and_styles() {
 			wp_dequeue_style('wp-columna');	
 		}
 		
+		// IF FONTAWESOME ISN'T ALREADY ENQUEUED, ENQUEUE IT
+		if ( !wp_style_is( 'fontawesome', $list = 'enqueued' )) {
+			wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+		}
 
 		// enqueue styles and scripts
 		wp_enqueue_script( 'bones-modernizr' );
