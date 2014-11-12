@@ -32,7 +32,7 @@ Breakpoints
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000312}}
 article,
 aside,
 details,
@@ -51,7 +51,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000331}}
 audio,
 canvas,
 video {
@@ -72,7 +72,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\0000352}}
 [hidden],
 template {
   display: none;
@@ -126,7 +126,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003105}}
 a:active,
 a:hover {
   outline: 0;
@@ -156,7 +156,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003137}}
 b,
 strong,
 .strong {
@@ -166,7 +166,7 @@ strong,
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003147}}
 dfn,
 em,
 .em {
@@ -194,7 +194,7 @@ pre {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003174}}
 code,
 kbd,
 pre,
@@ -222,7 +222,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003201}}
 q:before,
 q:after {
   content: '';
@@ -237,7 +237,7 @@ small, .small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003215}}
 sub,
 sup {
   font-size: 75%;
@@ -262,7 +262,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003239}}
 dl,
 menu,
 ol,
@@ -278,17 +278,21 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003254}}
 ol,
 ul {
   padding: 0;
-  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003258}}
+ol,
+ul {
+  margin-left: 1em;
 }
 
 /*
  * Corrects list images handled incorrectly in IE7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003267}}
 nav ul,
 nav ol {
   list-style: none;
@@ -302,7 +306,7 @@ nav ol {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003282}}
 img {
   border: 0;
   line-height: 0;
@@ -311,7 +315,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003291}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -322,7 +326,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003303}}
 figure {
   margin: 0;
 }
@@ -333,7 +337,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003315}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -344,7 +348,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003326}}
 legend {
   border: 0;
   /* 1 */
@@ -374,7 +378,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003351}}
 button,
 input {
   line-height: normal;
@@ -386,7 +390,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003363}}
 button,
 select {
   text-transform: none;
@@ -413,7 +417,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003388}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -423,7 +427,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003398}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -437,7 +441,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003410}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -451,7 +455,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003422}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -460,7 +464,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003431}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -471,7 +475,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003442}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -485,20 +489,20 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003455}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003462}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003469}}
 .image-replacement,
 .ir {
   text-indent: 100%;
@@ -506,16 +510,16 @@ table {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003477}}
 .clearfix, .cf {
   zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003479}}
 .clearfix:before, .clearfix:after, .cf:before, .cf:after {
   content: "";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003480}}
 .clearfix:after, .cf:after {
   clear: both;
 }
@@ -524,7 +528,7 @@ table {
 use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003487}}
 span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
@@ -533,7 +537,7 @@ span.amp {
 /*
 Accessibility styles 
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003496}}
 a.skip, .screen-reader-text {
   display: inline-block;
   position: absolute;
@@ -544,12 +548,12 @@ a.skip, .screen-reader-text {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_normalize\.scss}line{font-family:\00003506}}
 a.skip:focus {
   position: static;
   width: auto;
   height: auto;
-  background-color: white;
+  background-color: #fff;
   color: #2980b9;
   padding: 1em;
 }
@@ -577,7 +581,7 @@ http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/
 /*********************
 INPUTS
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000324}}
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -602,18 +606,18 @@ textarea,
   padding: 0 12px;
   margin-bottom: .9em;
   font-size: 1em;
-  color: black;
+  color: #000;
   border-radius: 3px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
   max-width: 400px;
-  background-color: white;
+  background-color: #fff;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000359}}
 input[type="text"]:focus, input[type="text"]:active,
 input[type="password"]:focus,
 input[type="password"]:active,
@@ -651,7 +655,7 @@ textarea:active,
 .field:active {
   background-color: #f0f0f0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000365}}
 input[type="text"].error, input[type="text"].is-invalid,
 input[type="password"].error,
 input[type="password"].is-invalid,
@@ -689,13 +693,13 @@ textarea.is-invalid,
 .field.is-invalid {
   color: #fbe3e4;
   border-color: #fbe3e4;
-  background-color: white;
+  background-color: #fff;
   background-position: 99% center;
   background-repeat: no-repeat;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
   outline-color: #fbe3e4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000377}}
 input[type="text"].success, input[type="text"].is-valid,
 input[type="password"].success,
 input[type="password"].is-valid,
@@ -733,13 +737,13 @@ textarea.is-valid,
 .field.is-valid {
   color: #e6efc2;
   border-color: #e6efc2;
-  background-color: white;
+  background-color: #fff;
   background-position: 99% center;
   background-repeat: no-repeat;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
   outline-color: #e6efc2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000389}}
 input[type="text"][disabled], input[type="text"].is-disabled,
 input[type="password"][disabled],
 input[type="password"].is-disabled,
@@ -776,10 +780,10 @@ textarea.is-disabled,
 .field[disabled],
 .field.is-disabled {
   cursor: not-allowed;
-  border-color: #cccccc;
+  border-color: #ccc;
   opacity: 0.6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000395}}
 input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[type="text"].is-disabled:focus, input[type="text"].is-disabled:active,
 input[type="password"][disabled]:focus,
 input[type="password"][disabled]:active,
@@ -957,7 +961,7 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-size: 0.9em;
   font-weight: normal;
   padding: .2em .5em .3em;
@@ -971,7 +975,7 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_buttons\.scss}line{font-family:\0000325}}
 .button:hover, .button:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_buttons\.scss}line{font-family:\0000331}}
@@ -988,7 +992,7 @@ and it will create a button dependant on those variables.
 .button {
   background-color: #2980b9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_buttons\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_buttons\.scss}line{font-family:\0000346}}
 .button:hover, .button:focus {
   background-color: #2574a8;
 }
@@ -997,11 +1001,11 @@ and it will create a button dependant on those variables.
   background-color: #2472a4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\000031}}
 #tinymce .one-half,
 #tinymce .one-third,
 #tinymce .two-third {
-  border: 1px dashed #aaaaaa;
+  border: 1px dashed #aaa;
   padding: 1%;
 }
 
@@ -1014,7 +1018,7 @@ and it will create a button dependant on those variables.
 }
 
 @media (min-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_columns\.scss}line{font-family:\0000314}}
   .one-half,
   .one-third,
   .two-third {
@@ -1060,9 +1064,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: black;
+  color: #000;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000311}}
@@ -1101,20 +1105,20 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000337}}
 #content {
-  background-color: white;
+  background-color: #fff;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000341}}
 .header {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   padding: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000348}}
 #logo {
   margin: 0;
-  color: white;
+  color: #fff;
   font-size: 3em;
   border: none;
   line-height: 0;
@@ -1154,14 +1158,14 @@ a.imglink, a:visited.imglink {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\0000395}}
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   text-rendering: optimizelegibility;
   font-weight: 500;
   margin: 0 0 .675em 0;
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003101}}
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
   text-decoration: none;
 }
 
@@ -1199,7 +1203,7 @@ h6 {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003134}}
 .single-title,
 .page-title,
 .entry-title {
@@ -1235,7 +1239,7 @@ POSTS & CONTENT STYLES
 *********************/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003169}}
 .hentry {
-  background-color: white;
+  background-color: #fff;
   margin-bottom: 1.5em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003177}}
@@ -1247,7 +1251,7 @@ POSTS & CONTENT STYLES
 /* post meta */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003187}}
 .byline {
-  color: #aaaaaa;
+  color: #aaa;
   font-style: italic;
   margin: 0;
 }
@@ -1260,29 +1264,29 @@ POSTS & CONTENT STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003201}}
 .entry-content table {
   width: 100%;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #aaa;
   margin-bottom: 1.5em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003206}}
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
-  color: #aaaaaa;
+  color: #aaa;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003215}}
 .entry-content tr {
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003218}}
 .entry-content tr:nth-child(even) {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003223}}
 .entry-content td {
   padding: 7px;
-  border-right: 1px solid #aaaaaa;
+  border-right: 1px solid #aaa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003227}}
 .entry-content td:last-child {
@@ -1290,9 +1294,9 @@ POSTS & CONTENT STYLES
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003232}}
 .entry-content th {
-  background-color: #cccccc;
-  border-bottom: 1px solid #aaaaaa;
-  border-right: 1px solid #aaaaaa;
+  background-color: #ccc;
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #aaa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003237}}
 .entry-content th:last-child {
@@ -1305,7 +1309,7 @@ POSTS & CONTENT STYLES
   color: #787878;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003249}}
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -1316,8 +1320,8 @@ POSTS & CONTENT STYLES
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003258}}
 .entry-content pre {
-  background: black;
-  color: #cccccc;
+  background: #000;
+  color: #ccc;
   font-size: 0.9em;
   padding: 1.5em;
   margin: 0 0 1.5em;
@@ -1337,7 +1341,7 @@ blockquote {
   padding: 0 0 0 0.75em;
   border-left: 3px solid #2980b9;
   font-style: italic;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003285}}
@@ -1350,7 +1354,7 @@ img {
 /*
 Align all images center for smallest screens
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003294}}
 .alignleft, img.alignleft,
 .alignright, img.alignright,
 .aligncenter, img.aligncenter {
@@ -1360,7 +1364,7 @@ Align all images center for smallest screens
   clear: both;
 }
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003294}}
   .alignleft, img.alignleft,
   .alignright, img.alignright,
   .aligncenter, img.aligncenter {
@@ -1408,7 +1412,7 @@ Align all images center for smallest screens
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003342}}
 .wp-caption, .html5-captions .wp-caption {
   max-width: 100%;
-  background: #cccccc;
+  background: #ccc;
   padding: .2em;
   /* images inside wp-caption */
 }
@@ -1461,7 +1465,7 @@ Align all images center for smallest screens
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003404}}
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
@@ -1474,7 +1478,7 @@ PAGE NAVI STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003411}}
 .pagination ul {
   display: inline-block;
-  background-color: white;
+  background-color: #fff;
   white-space: nowrap;
   padding: 0;
   clear: both;
@@ -1487,7 +1491,7 @@ PAGE NAVI STYLES
   float: left;
   display: inline;
   overflow: hidden;
-  border-right: 1px solid #aaaaaa;
+  border-right: 1px solid #aaa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003429}}
 .pagination a, .pagination span {
@@ -1505,17 +1509,17 @@ PAGE NAVI STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003441}}
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2980b9;
-  color: white;
+  color: #fff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003447}}
 .pagination .current {
   cursor: default;
-  color: black;
+  color: #000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003451}}
 .pagination .current:hover, .pagination .current:focus {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
 }
 
 /* end .bones_page_navi */
@@ -1536,8 +1540,8 @@ FOOTER STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003479}}
 .footer {
   clear: both;
-  background-color: black;
-  color: #cccccc;
+  background-color: #000;
+  color: #ccc;
   padding: 1em 0;
   font-size: .9em;
 }
@@ -1547,8 +1551,8 @@ FOOTER STYLES
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003490}}
 .footer a, .footer a:visited {
-  color: #aaaaaa;
-  border-color: #aaaaaa;
+  color: #aaa;
+  border-color: #aaa;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003496}}
@@ -1578,7 +1582,7 @@ FOOTER STYLES
   display: inline-block;
   margin-right: 1em;
   padding-right: 1em;
-  border-right: 1px solid #aaaaaa;
+  border-right: 1px solid #aaa;
   line-height: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/areas\/_general\.scss}line{font-family:\00003521}}
@@ -1591,5 +1595,7 @@ FOOTER STYLES
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/master\.dev\/wp-content\/themes\/bones\/library\/scss\/global\/_editor_styles\.scss}line{font-family:\000031}}
 body {
   padding: 1em;
-  background-color: white;
+  background-color: #fff;
 }
+
+/*# sourceMappingURL=editor-style.css.map */
