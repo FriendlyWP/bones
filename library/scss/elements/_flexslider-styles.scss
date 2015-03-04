@@ -60,7 +60,7 @@
 
 .slidetext {
   font-size:.9em;
-  text-shadow: 2px 2px $dark-blue;
+  text-shadow: 2px 2px $blue;
 
   @include breakpoint(tablet) {
     width: 40%;
@@ -73,7 +73,7 @@
     color:$yellow;
 
     &:hover {
-      color:$light-yellow;
+      color:$yellow;
     }
   }
 

@@ -65,20 +65,14 @@ function bones_remove_wp_ver_css_js( $src ) {
 	return $src;
 }
 
-// remove injected CSS for recent comments widget
-function bones_remove_wp_widget_recent_comments_style() {
-	if ( has_filter( 'wp_head', 'wp_widget_recent_comments_style' ) ) {
-		remove_filter( 'wp_head', 'wp_widget_recent_comments_style' );
-	}
-}
-
+/*
 // remove injected CSS from recent comments widget
 function bones_remove_recent_comments_style() {
 	global $wp_widget_factory;
 	if (isset($wp_widget_factory->widgets['WP_Widget_Recent_Comments'])) {
 		remove_action( 'wp_head', array($wp_widget_factory->widgets['WP_Widget_Recent_Comments'], 'recent_comments_style') );
 	}
-}
+}*/
 
 // ADD EDITOR STYLE
 add_action( 'admin_init', 'my_theme_add_editor_styles' );
@@ -98,16 +92,17 @@ function bones_scripts_and_styles() {
   if (!is_admin()) {
 
 		// modernizr (without media query polyfill)
-		wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
+		//wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
 		// register main stylesheet
 		wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 
 		// ie-only style sheet
-		wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+		//wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+		//$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
 	    // comment reply script for threaded comments
-	    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+	    if ( is_single() AND comments_open() AND (get_option('thread_comments') == 1)) {
 			  wp_enqueue_script( 'comment-reply' );
 	    }
 
@@ -121,7 +116,7 @@ function bones_scripts_and_styles() {
 		
 		// IF FONTAWESOME ISN'T ALREADY ENQUEUED, ENQUEUE IT
 		if ( !wp_style_is( 'fontawesome', $list = 'enqueued' )) {
-			wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+			wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 		}
 
 		// enqueue styles and scripts
@@ -129,11 +124,10 @@ function bones_scripts_and_styles() {
 		wp_enqueue_style( 'bones-stylesheet' );
 		wp_enqueue_style( 'bones-ie-only' );
 
-		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
-
 		/* styles for mobile menu imported in style.scss */
-		wp_register_script( 'mmenu-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/js/jquery.mmenu.min.all.js', array( 'jquery' ), '', false );
-
+			//wp_register_script( 'mmenu-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/js/jquery.mmenu.min.all.js', array( 'jquery' ), '', false );
+		// use cdn for jquery-mmenu
+		wp_register_script( 'mmenu-js', '//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/4.7.5/js/jquery.mmenu.min.all.min.js', array( 'jquery' ), '', true );
 		wp_enqueue_script( 'mmenu-js' );
 		
 		wp_enqueue_script( 'jquery' );
@@ -153,10 +147,10 @@ function bones_theme_support() {
 	add_theme_support( 'post-thumbnails' );
 
 	// default thumb size
-	set_post_thumbnail_size(125, 125, true);
+	set_post_thumbnail_size(300, 0, false);
 
 	// wp custom background (thx to @bransonwerner for update)
-	add_theme_support( 'custom-background',
+	/*add_theme_support( 'custom-background',
 	    array(
 	    'default-image' => '',    // background image default
 	    'default-color' => '',    // background color default (dont add the #)
@@ -165,7 +159,7 @@ function bones_theme_support() {
 	    'admin-preview-callback' => ''
 	    )
 	);
-
+*/
 	// rss thingy
 	add_theme_support('automatic-feed-links');
 
@@ -188,7 +182,7 @@ function bones_theme_support() {
 
 	// Use HTML5 Galleries, which don't include style tags
 	// see http://make.wordpress.org/core/2014/04/15/html5-galleries-captions-in-wordpress-3-9/
-	add_theme_support( 'html5', array( 'gallery', 'caption' ) );
+	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 
 	// wp menus
 	add_theme_support( 'menus' );
@@ -203,37 +197,6 @@ function bones_theme_support() {
 	);
 } /* end bones theme support */
 
-
-/*********************
-RELATED POSTS FUNCTION
-*********************/
-
-// Related Posts Function (call using bones_related_posts(); )
-function bones_related_posts() {
-	echo '<ul id="bones-related-posts">';
-	global $post;
-	$tags = wp_get_post_tags( $post->ID );
-	if($tags) {
-		foreach( $tags as $tag ) {
-			$tag_arr .= $tag->slug . ',';
-		}
-		$args = array(
-			'tag' => $tag_arr,
-			'numberposts' => 5, /* you can change this to show more */
-			'post__not_in' => array($post->ID)
-		);
-		$related_posts = get_posts( $args );
-		if($related_posts) {
-			foreach ( $related_posts as $post ) : setup_postdata( $post ); ?>
-				<li class="related_post"><a class="entry-unrelated" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
-			<?php endforeach; }
-		else { ?>
-			<?php echo '<li class="no_related_post">' . __( 'No Related Posts Yet!', 'bonestheme' ) . '</li>'; ?>
-		<?php }
-	}
-	wp_reset_postdata();
-	echo '</ul>';
-} /* end bones related posts function */
 
 /*********************
 PAGE NAVI
@@ -275,7 +238,3 @@ function bones_excerpt_more($more) {
 	// edit here if you like
 	return '...  <a class="excerpt-read-more" href="'. get_permalink($post->ID) . '" title="'. __( 'Read ', 'bonestheme' ) . get_the_title($post->ID).'">'. __( 'Read more &raquo;', 'bonestheme' ) .'</a>';
 }
-
-
-
-?>

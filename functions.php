@@ -32,9 +32,9 @@ function bones_ahoy() {
   // remove WP version from RSS
   add_filter( 'the_generator', 'bones_rss_version' );
   // remove pesky injected css for recent comments widget
-  add_filter( 'wp_head', 'bones_remove_wp_widget_recent_comments_style', 1 );
+ // add_filter( 'wp_head', 'bones_remove_wp_widget_recent_comments_style', 1 );
   // clean up comment styles in the head
-  add_action( 'wp_head', 'bones_remove_recent_comments_style', 1 );
+  //add_action( 'wp_head', 'bones_remove_recent_comments_style', 1 );
   // enqueue base scripts and styles
   add_action( 'wp_enqueue_scripts', 'bones_scripts_and_styles', 999 );
   // ie conditional wrapper
@@ -60,12 +60,12 @@ add_action( 'after_setup_theme', 'bones_ahoy' );
 // Thumbnail sizes
 
 
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
+add_filter( 'image_size_names_choose', 'friendly_custom_image_sizes' );
 
-function bones_custom_image_sizes( $sizes ) {
+function friendly_custom_image_sizes( $sizes ) {
     return array_merge( $sizes, array(
-        //'bones-thumb-600' => __('600px by 150px'),
-        //'bones-thumb-300' => __('300px by 100px'),
+        //'thumb-600' => __('600px by 150px'),
+        //'thumb-300' => __('300px by 100px'),
     ) );
 }
 
@@ -90,6 +90,16 @@ function bones_register_sidebars() {
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
+
+  register_sidebar(array(
+    'id' => 'footer1',
+    'name' => __( 'Footer', 'bonestheme' ),
+    'description' => __( 'The footer widgets.', 'bonestheme' ),
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<h4 class="widgettitle">',
+    'after_title' => '</h4>',
+  ));
 
 } // don't remove this bracket!
 
