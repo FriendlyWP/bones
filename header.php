@@ -139,6 +139,7 @@
 								)); ?>
 						</nav>
 					<?php } ?>
+					</div>
 				</div>
 
 				<script type="text/javascript">

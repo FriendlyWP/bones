@@ -11,7 +11,6 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
   font-family: $sans-serif;
   text-decoration: none;
   color: $white;
-  font-size: 0.9em;
   font-weight: normal;
   padding: .2em .5em .3em;
   border-radius: .2em;
@@ -19,6 +18,7 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
   cursor: pointer;
   line-height: 1.5em;
   vertical-align: middle;
+  background-color:$link-color;
   @include transition(background-color 0.14s ease-in-out);
 
   // hovering on the btn
@@ -41,11 +41,25 @@ and it will create a button dependant on those variables.
 */
 .button {
   @extend %btn; // here we load the btn defaults
+
+  &:hover,
+  &:focus {
+   
+  } // end hover
+
+  &:active {
+    background-color: darken($orange, 5%);
+  } // end active
+
+} // end blue button
+
+.button.blue {
+  @extend %btn; // here we load the btn defaults
   background-color: $link-color;
 
   &:hover,
   &:focus {
-    background-color: darken($link-color, 4%);
+     background-color: darken($link-color, 4%);
   } // end hover
 
   &:active {

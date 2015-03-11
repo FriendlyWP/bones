@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-			<div id="content">
+			<div id="content" class="content">
 
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="inner-content wrap cf">
 
 					<div id="main" class="main-content cf" role="main">
 						<h1 class="archive-title"><span><?php _e( 'Search Results for:', 'bonestheme' ); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>

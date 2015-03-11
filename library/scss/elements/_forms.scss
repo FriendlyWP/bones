@@ -196,3 +196,31 @@ input[type="file"] {
     background-color: transparent;
   }
 }
+
+.search-submit {
+  @extend %btn;
+
+
+  &.fa-search {
+    font-family: 'FontAwesome';
+  }
+
+  .sidebar & {
+    position:absolute;
+    right:0;
+    top:0;
+    display: inline-block;
+    height:40px;
+    width: 40px;
+  }
+
+}
+.search-form {
+  position: relative;
+
+  .search-field {
+    .sidebar & {
+      padding-right: 50px;
+    }
+  }
+}

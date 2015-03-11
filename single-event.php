@@ -20,9 +20,9 @@ get_header(); ?>
 
 <?php get_header(); ?>
 			
-			<div id="content">
+			<div id="content" class="content">
 
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="inner-content wrap cf">
 
 						<div id="main" class="main-content cf" role="main">
 
@@ -31,7 +31,7 @@ get_header(); ?>
 					
 							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 								<?php if ( function_exists('yoast_breadcrumb') ) {
-										yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+										yoast_breadcrumb('<p class="breadcrumbs">','</p>');
 									} ?>
 								
 								<header class="article-header">

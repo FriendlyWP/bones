@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-			<div id="content">
+			<div id="content" class="content">
 
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="inner-content wrap cf">
 
 						<div id="main" class="main-content cf" role="main">
 
 							<?php if ( function_exists('yoast_breadcrumb') ) {
-								yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+								yoast_breadcrumb('<p class="breadcrumbs">','</p>');
 							} ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

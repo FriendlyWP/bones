@@ -34,11 +34,11 @@ body {
 	}
 }
 
-#inner-content {
+.inner-content {
 	padding:1.677em 0;
 }
 
-#content {
+.content {
 	background-color:$white;
 }
 
@@ -270,7 +270,7 @@ POSTS & CONTENT STYLES
 
 } /* end .entry-content */
 
-#breadcrumbs {
+.breadcrumbs {
 	font-size:.8em;
 	margin-bottom:.5em;
 }
