@@ -144,26 +144,6 @@ function bones_comments( $comment, $args, $depth ) {
 } // don't remove this bracket!
 
 
-/************** ADD FILE TYPES TO MEDIA LIBRARY FILTERS ****************/
-add_filter( 'post_mime_types', 'custom_mime_types' );
-function custom_mime_types( $post_mime_types ) {
-        $post_mime_types['application/msword'] = array( __( 'Word Docs' ), __( 'Manage Word Docs' ), _n_noop( 'Word Docs <span class="count">(%s)</span>', 'Word Docs <span class="count">(%s)</span>' ) );
-        $post_mime_types['application/vnd.ms-excel'] = array( __( 'Excel Files' ), __( 'Manage Excel Files' ), _n_noop( 'Excel Files <span class="count">(%s)</span>', 'Excel Files <span class="count">(%s)</span>' ) );
-        $post_mime_types['application/vnd.ms-powerpoint'] = array( __( 'PowerPoint Files' ), __( 'Manage PowerPoint Files' ), _n_noop( 'PowerPoint Files <span class="count">(%s)</span>', 'PowerPoint Files <span class="count">(%s)</span>' ) );
-        $post_mime_types['application/pdf'] = array( __( 'PDFs' ), __( 'Manage PDFs' ), _n_noop( 'PDFs <span class="count">(%s)</span>', 'PDFs <span class="count">(%s)</span>' ) );
-        $post_mime_types['application/zip'] = array( __( 'ZIPs' ), __( 'Manage ZIPs' ), _n_noop( 'ZIP <span class="count">(%s)</span>', 'ZIPs <span class="count">(%s)</span>' ) );
-        
-        return $post_mime_types;
-}
-
-/************ RESPONSIVE VIDEO ******************/
-// remove dimensions from oEmbed videos
-add_filter( 'embed_oembed_html', 'tdd_oembed_filter', 10, 4 ) ; 
-function tdd_oembed_filter($html, $url, $attr, $post_ID) {
-    $return = '<figure class="video-container">'.$html.'</figure>';
-    return $return;
-}
-
 /**************** SHORTCODES ***************/
 
 // ENABLE SHORTCODES IN ALL TEXT WIDGETS
